@@ -1,16 +1,75 @@
-# React + Vite
+# Jason A. James — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional personal website built with React, Vite, and Tailwind CSS. This repository powers a polished online portfolio and contact page for Jason A. James, emphasizing AI, full-stack development, and modern web experiences.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Clean, responsive landing page with animated hero content
+- AI and machine learning expertise section
+- Technology toolkit showcase with skill cards
+- Professional ventures and experience summary
+- Contact form integration via Formspree
+- Smooth hash-based routing and polished page transitions
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite 8
+- Tailwind CSS 4
+- @tailwindcss/typography
+- ESLint for developer quality checks
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/App.jsx` — main application layout, homepage sections, contact form, and routing
+- `src/index.css` — global styles, Tailwind configuration, animations, and theme tokens
+- `src/main.jsx` — app entry point
+- `index.html` — HTML shell and page metadata
+- `package.json` — project scripts and dependencies
+
+## Local Development
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Start the development server:
+
+```bash
+npm run dev
+```
+
+3. Open the site in your browser using the local Vite URL shown in the terminal.
+
+## Build
+
+Create a production-ready build with:
+
+```bash
+npm run build
+```
+
+You can preview the production build locally with:
+
+```bash
+npm run preview
+```
+
+## Linting
+
+Run ESLint against the source files:
+
+```bash
+npm run lint
+```
+
+## Notes
+
+- The site is intended as a public portfolio and professional landing page.
+- The contact form is configured to submit via Formspree using the existing form endpoint.
+
+## License
+
+This repository is provided without an explicit license. If you want to reuse or adapt the code, please request permission from the author.
